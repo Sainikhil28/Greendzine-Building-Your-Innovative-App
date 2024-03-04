@@ -1,0 +1,99 @@
+/* App.css */
+
+/* Default styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for screens with a width of 412px or less (Android devices) */
+
+@media only screen and (max-width: 412px) {
+  .container {
+    padding: 10px;
+  }
+  
+  /* Add specific styles for Android devices if needed */
+}
+
+/* Styles for screens with a width of 390px or less (iOS devices) */
+
+@media only screen and (max-width: 390px) {
+  .container {
+    padding: 5px;
+  }
+  
+  /* Add specific styles for iOS devices if needed */
+}
+
+/* Styles for screens with a width of 375px (iPhone 6, 7, 8, SE) */
+
+@media only screen and (max-width: 375px) {
+  /* Add specific styles for iPhone 6, 7, 8, SE if needed */
+}
+
+/* Styles for screens with a width of 414px (iPhone 6 Plus, 7 Plus, 8 Plus) */
+
+@media only screen and (max-width: 414px) {
+  /* Add specific styles for iPhone 6 Plus, 7 Plus, 8 Plus if needed */
+}
+
+/* Styles for screens with a width of 375px (iPhone X, XS, 11 Pro) */
+
+@media only screen and (max-width: 375px) {
+  /* Add specific styles for iPhone X, XS, 11 Pro if needed */
+}
+
+/* Styles for screens with a width of 414px (iPhone XR, 11) */
+
+@media only screen and (max-width: 414px) {
+  /* Add specific styles for iPhone XR, 11 if needed */
+}
+
+/* Common styles for all screen sizes */
+
+.login-container, .home-container, .employee-list-container {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="password"], button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
